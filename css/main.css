@@ -1,3 +1,6 @@
+.Total{
+    width: auto;
+}
 /* INFO */
 .Info{
     display: flex;
@@ -194,7 +197,7 @@
     list-style-type: none;
     justify-content: space-evenly;
     padding: 0 200px 0 200px;
-    margin-top: 130px;
+    margin-top: 100px;
     
 }
 .Listt a {
@@ -205,11 +208,481 @@
 .Listt-link::after{
     position: absolute;
     content: "";
-    height: 2.4rem;
+    height: 1.6rem;
     width: 1px;
-    background-color: black;
-    top : 10rem;
-    margin: 100px 0 0 32px;
+    background-color: #f1f1f1;
+    top : 10.3rem;
+    margin: 72px 0 0 32px;
+}    
 
+
+.Listt1::before{
+    position: absolute;
+    content: "";
+    height: 1px;
+    width: 80%;
+    background-color: #f1f1f1;
+    top: 16rem;
+    left:18rem;
+  
+
+}
+/* Banner */
+.Banner{
+    position: relative;
+    list-style-type: none;
+    background-color: #c4c4c4;
+    height: 60.4rem;
+}
+.Banner_box{
+    position: absolute;
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: lightcyan;
+    height: 45rem;
+    width: 70.2rem;
+    top: 5.6rem;
+    right: 12.5rem;
+    
+}
+.Banner_box_text1{
+    
+    padding-left: 60.4rem;
+    color: var(--white-color);
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding-bottom: 2rem;
+}
+.Banner_box_text2{
+    padding-left: 63.35rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.img{
+    position: absolute;
+    right: 23.5rem;
+    height: 60rem;
+    width: 40rem;
+    bottom:2.5rem;
+}
+.text1{
+    padding: 10.3rem 0 0 16rem;
+    font-size: 1.4rem;
+}
+.text1::after{
+    position: absolute;
+    content: "";
+    height: 1px;
+    width: 4rem;
+    background-color: black;
+    margin: 1.2rem 0 0 0.8rem;
+}
+.text2{
+    padding: 3rem 0 0 16rem;
+    font-size: 5.8rem;
+    font-weight: 600;
+}
+.text3{
+    position: absolute;
+    font-size: 5.8rem;
+    font-weight: 600;
+    padding: 2rem 0 0 26rem;
+    z-index: 3;
+}
+.Buttonn{
+    position: absolute;
+    color: var(--white-color);
+    font-size: 1.4rem;
+    background-color: black;
+    align-items: center;
+    height: 3.8rem;
+    width: 12.1rem;
+    margin:20rem 0 0 16rem;
+}
+.Buttonn::before{
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 4rem;
+    background-color: white;
+    margin: 13.3rem 0 0 -4rem;
+    
+}
+.Buttonn::after{
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 4rem;
+    background-color : #8d7bfc;
+    margin: 13.3rem 0 0 -4.8rem;
+    
+}
+.Link_watch{
+    position: absolute;
+    font-size: 2.5rem;
+    margin: 21rem 0 0 35rem;
+    color: black;
+
+}
+.Watch{
+    position: absolute;
+    margin: 21.5rem 0 0 39rem;
+    text-decoration: none;
+    color: black;
+    font-size: 1.4rem;
+    font-weight: 600;
+
+}
+.Watch::before{
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 4rem;
+    background-color : #8d7bfc;
+    margin: 13.3rem 0 0 -13.2rem;
+}
+.Link{
+    text-decoration: none;
+}
+/* Brands */
+.Brands{
+    display: flex;
+    justify-content: space-between;
+    padding: 4.4rem 13.1rem 0 12.9rem;
+    align-items: center;
+}
+.imglogo1{
+    height:6rem ;
+    width: 8.3rem;
+}
+.imglogo2{
+    height:6rem ;
+    width: 6.2rem;
+}
+.imglogo3{
+    height:6.7rem ;
+    width: 13.5rem;
+}
+.imglogo4{
+    height: 6.7em; 
+    width: 12.8rem;
+}
+.imglogo5{
+    height: 6.7rem;
+    width: 12.8rem;
+}
+.imglogo6{
+    height:6rem ;
+    width: 4.9rem;
+}
+.imglogo6::after{
+    position: absolute;
+    content: "";
+    height: 7rem;
+    width: 1px;
+    background-color : #dfedee;
+    margin-left: 3rem;
+    margin-top: -0.7rem;
+}
+.text_logo{
+    font-size: 1.4rem;
+    height: 1.8rem;
+    width: 10.7remrem;
+    font-weight: 600;
+    padding-left: 3rem;
+}
+.text_logo::before{
+    position: absolute;
+    content: "";
+    height: 1px;
+    width: 4rem;
+    background-color : #1A1A1A;
+    margin: 1.2rem 0 0 -5rem;
+}
+/* Fashion Trending */
+.Fashion{
+    
+    padding: 0 0 0 5rem
+    
+}
+.Fashion_text{
+    position: absolute;
+    font-size: 4rem;
+    font-weight: 600;
+    height: 5rem;
+    width: 34.5rem;
+    margin: 12rem 0 0 13rem;
+}
+.Fashion_text::after{
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 6rem;
+    background-color : #1A1A1A;
+    margin: 3.7rem 0 0 1.6rem;
+
+}
+.Fashion1{
+    position: absolute;
+    margin: 27rem 0 0 12.4rem;
+    
+}
+.Fashion2{
+    position: absolute;
+    height: 10rem;
+    width: 48rem;
+    margin: 35rem 0 0 45rem;
+}
+.Fashion3{
+    position: absolute;
+    height: 9rem;
+    width: 48rem;
+    margin: 48rem 0 0 65rem;
+    z-index: 2;
+}
+.Fashion4{
+    position: absolute;
+    margin: 60rem 0 0 64.5rem;
+}
+.Fashion5{
+    position: absolute;
+    height: 21.1rem;
+    width: 32.9rem;
+    margin: 53rem 0 0 89rem;
+    z-index: 3;
+}
+.Fashion6{
+    position: absolute;
+    margin: 34rem 0 0 105rem;
+    z-index: 3;
+}
+
+.Background{
+    position: absolute;
+    background-color: #e5cded;
+    height: 49.95rem;
+    width: 36.7rem;
+    margin: 27rem 0 0 14rem;
+}
+.Fashion5-mod{
+    position: absolute;
+    background-color: #c7d1eb;
+    height: 28.2rem;
+    width: 22.5rem;
+    margin: 48.7rem 0 0 99.55rem;
+    z-index: 1;
+}
+.Fashion6-mod{
+    position: absolute;
+    background-color: #c5e5e9;
+    height: 25.1rem;
+    width: 20rem;
+    margin: 27.65rem 0 0 110rem;
+    z-index: 0;
+
+}
+.Fashion_but{
+    position: absolute;
+    font-size: 1.4rem;
+    color: var(--white-color);
+    align-items: center;
+    background-color: black;
+    height: 3.8rem;
+    width: 13.2rem;
+    margin: 72.6rem 0 0 64.5rem;
+
+}
+/* NewSeason */
+.NS_text{
+    position: relative;
+    height:5rem ;
+    width: 87.3rem;
+    font-size: 4rem;
+    font-weight: 600;
+    margin: 94rem 0 0 19rem;
+}
+.NS_text::after{
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 6rem;
+    background-color : #1A1A1A;
+    margin: 3.7rem 0 0 1.6rem;
+}
+.BG1{
+    position: absolute;
+    background-color: #bacbf9;
+    height: 42.6rem;
+    width: 57.8rem;
+    margin: 10rem 0 0 19rem;
+}
+.IM1{
+    position: absolute;
+    
+    margin: 10rem 0 0 18.6rem;
+    
+}
+.BG2{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    height: 6.1rem;
+    width: 53.2rem;
+    margin: 43.5rem 0 0 74rem;   
+    box-shadow: 3px 2px 9px 1px black;
+}
+.BG22{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    background-color: #ffb7b7;
+    height: 31.1rem;
+    width: 53.2rem;
+    margin: 12.3rem 0 0 74rem;
+}
+.IM2{
+    position: absolute;
+    
+    margin: 13rem 0 0 74rem;
+    z-index: 3;
+}
+.BG_text1{
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding: 0 0.5rem 0 6rem ;
+    
+}
+.BG_text2{
+    font-size: 1.4rem;
+    padding: 0 12.1rem 0 0.4rem ;
+}
+.BG_text3{
+    font-size: 1.7rem;
+    font-weight: 700;
+    
+}
+.AR1{
+    position: absolute;
+    margin: 22.5rem 0 0 133.5rem;
+}
+.AR2{
+    position: absolute;
+    margin: 34rem 0 0 134rem;
+}
+.AR3{
+    position: absolute;
+    height: 7rem;
+    width: 7rem;
+    margin: 20rem 0 0 130.9rem;
+    
+}
+.AR4{
+    position: absolute;
+    height: 7rem;
+    width: 7rem;
+    margin: 31.6rem 0 0 131rem;
+}
+.Gach1::after{
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 4rem;
+    background-color : #9a9a9a;
+    margin: 10rem 0 0 80rem;
+}
+.Gach2::after{
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 4rem;
+    background-color : #f1f1f1;
+    margin: 10rem 0 0 85rem;
+}
+.Gach3::after{
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 4rem;
+    background-color : #f1f1f1;
+    margin: 10rem 0 0 90rem;
+}
+/* Route One */
+.RO_BG{
+    position: relative;
+    display: flex;
+    background-color: #dce6ff;
+    height: 56rem;
+    width: 100%;
+    margin: 68rem 0 0 0;
+}
+.RO_text1{
+    position: absolute;
+    font-size:1.4rem ;
+    font-weight: 400;
+    margin: 10rem 0 0 13rem;
+}
+.RO_text1::after{
+    position: absolute;
+    background-color:  black;
+    content: "";
+    height:1px ;
+    width: 4rem;
+    margin: 1.3rem 0 0 0.8rem;
+}
+.RO_text2{
+    position: absolute;
+    font-size:4.8rem ;
+    font-weight: 600;
+    margin: 13.4rem 0 0 13rem;
+}
+.RO_text3{
+    position: absolute;
+    font-size:4.8rem ;
+    font-weight: 600;
+    margin: 20.2rem 0 0 13rem;
+}
+.RO_IMG{
+    position: absolute;
+    margin: 28.6rem 0 0 13rem;
+}
+.RO_IMG1{
+    position: absolute;
+    height: 57.4rem;
+    width: 41.2rem;
+    margin: 0 0 0 56rem;
+}
+.RO_IMG2{
+    position: absolute;
+    height: 57.4rem;
+    width: 41.2rem;
+    margin: 0 0 0 70.5rem;
+}
+.RO_IMG3{
+    position: absolute;
+    height: 57.4rem;
+    width: 41.2rem;
+    margin: 0 0 0 84.9rem;
+}
+.RO_IMG4{
+    position: absolute;
+    height: 57.4rem;
+    width: 41.2rem;
+    margin: 0 0 0 99rem;
+}
+.RO_IMG5{
+    position: absolute;
+    height: 57.4rem;
+    width: 41.2rem;
+    margin: 0 0 0 113rem;
+}
+.RO_But{
+    position: absolute;
+    background-color: black;
+    color: white;
+    height: 3.8rem;
+    width: 12.1rem;
+    margin: 42.2rem 0 0 13rem;
+    font-size: 1.4rem;
 }
 
